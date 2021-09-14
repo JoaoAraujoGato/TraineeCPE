@@ -1,0 +1,119 @@
+.total_login{
+    height:100vh;
+    width: 100vw;
+    background: linear-gradient(#ffb90893,#dc2e0298);
+
+    overflow: auto;
+}
+
+.base_login {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: auto;
+    overflow: auto;
+}
+
+.conteiner_login {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    text-align: center !important;
+    justify-content: center;
+    flex-grow: 1;
+    height: 400px;
+    background: #beb9b92a;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+    position: relative;
+    border-radius: 1cm;
+    margin-top: 20px;
+}
+
+
+.contentLogin section{
+    width: 100%;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.contentLogin form{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 15px;
+    width: 90%;
+}
+
+.contentLogin form input{
+    margin-top: 8px;
+    height: 35px;
+    border: 1px solid #dcdce6;
+    border-radius: 8px;
+    padding: 0 24px;
+    text-align: center;
+}
+
+.buttonLogin{
+    width: 100%;
+    height: 35px;
+    background: #D00000;
+    border: 1px solid #D00000;
+    border-radius: 8px;
+    color: white;
+    margin-top: 8px;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    transition: filter 0.2s;
+}
+
+.buttonLogin:hover {
+    filter: brightness(70%);
+}
+
+.cadastroButton_login {
+    width: 100%;
+    height: 35px;
+    background: #D00000;
+    border: 1px solid #D00000;
+    border-radius: 8px;
+    color: white;
+    margin-top: 8px;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    transition: filter 0.2s;
+}
+
+.cadastroButton_login:hover {
+    filter: brightness(70%);
+}
+
+.homeButton_login {
+   display: flex;
+   margin-top: 5px;
+   margin-left: 50px;
+   margin-right: 50px;
+}
+
+@media only screen and (max-width:1050px){
+    .base_login {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: auto;
+        overflow: auto;
+    }
+    
+}

@@ -1,0 +1,82 @@
+.base_historia{
+    font-family: 'Fjalla One', sans-serif;
+    opacity: initial;
+    font-size: 3vw;
+}
+.back_his{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(255,255,255,.4)),url("https://images.pexels.com/photos/7505204/pexels-photo-7505204.jpeg?cs=srgb&dl=pexels-valeriya-kobzar-7505204.jpg&fm=jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center center;
+    color: white;
+    text-align: center;
+}
+.frase_tit{
+    color: black;
+    border-bottom:1px solid grey;
+    position: relative;
+    opacity: initial;
+    font-family: 'Pacifico', cursive;
+    font-size: 2vw;
+}
+.his_sobre{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tit_his{
+    font-family: 'Prompt', sans-serif;
+    color:black;
+    font-size: 3.5vw;
+}
+.his{
+    font-family: 'Cinzel', serif;
+    padding:0 20vh 0 20vh;
+    font-size: 2vw;
+    text-align:justify;
+}
+.icons_his{
+    display: flex;
+    flex-direction: column;
+}
+.cnt_his{
+    font-size: 1.8vw;
+}
+.accordion_his{
+    padding:0 20vh 0 20vh;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+@media only screen and (max-width:400px) {
+    .back_his{
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+    }
+    .frase_tit{
+        font-size: 3vw;
+    }
+    .tit_his{
+        font-size: 120%;
+    }
+    .his{
+        font-size: 80%;
+        padding:0 8vh 0 8vh;
+    }
+    .cnt_his{
+        font-size: 3vw;
+    }
+    .his_sobre{
+        padding-top: 4%;
+    }
+    .his_art{
+        padding-top: 4%;
+    }
+    .accordion_his{
+        padding:0 8vh 0 8vh;
+    
+    }
+}
